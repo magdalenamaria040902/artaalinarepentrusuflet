@@ -1,0 +1,252 @@
+<html>
+   
+<head>
+    <meta charset="UTF-8">
+<title>Arta, alinare pentru suflet</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background-color: #000;
+}
+    h2{
+        color: white; margin-top: 3em; font-size: 2em; font-family: cursive; font: "Comic Sans"
+    }
+      h3{ color: white; margin-top: 1em; font-size: 4em; font-family: cursive; font:"Comic Sans"; }
+    p.ex1 {
+  
+   text-align: justify;
+   align-content: center;
+   font-family: cursive;
+    font:"Comic Sans";
+    color: white;
+    margin-left: 20%;
+       
+}
+     p.ex2 {
+  
+
+   align-content: center;
+   font-family: cursive;
+    font:"Comic Sans";
+    color: white;
+    margin-left: 200px;
+  margin-right:150px ;
+       
+}
+        p { 
+  font-size: 1em; 
+} .newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+   
+}
+    * {
+  box-sizing: border-box;
+    
+}
+
+.column {
+  float: left;
+  width: 10.50%;
+  padding: 20px;
+     margin-left:200px;
+    margin-right: 100px;
+margin-top: 50px;
+
+
+    
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;   
+}
+
+    </style>
+
+    </head>
+
+
+ <body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Acasa</a>
+   
+  <a href="#">Pictori</a>
+        <a href="picasso.html" style="color: black; font-size:    15px; margin-left: 1em;">~Pablo Picasso</a>
+         <a href="vinci.html" style="color: black; font-size:    15px; margin-left: 1em;">~Leonardo Da Vinci</a>
+     <a href="van.html" style="color: black; font-size:    15px; margin-left: 1em;">~Vincent van Gogh</a>
+     <a href="rijn.html" style="color: black; font-size:    15px; margin-left: 1em;">~Rembrandt van Rijn</a>
+    
+<a href="#">Sculptori</a>
+    <a href="brancusi.html" style="color: black; font-size:    15px; margin-left: 1em;">~Constantin Brancuși</a>
+         <a href="auguste.html" style="color: black; font-size:    15px; margin-left: 1em;">~Auguste Rodin</a>
+     <a href="adoc.html" style="color: black; font-size:    15px; margin-left: 1em;">~Gheorghe Adoc</a>
+     <a href="donatello.html" style="color: black; font-size:    15px; margin-left: 1em;">~Donatello di Niccolo</a>
+
+<a href="#">Compozitori</a>
+    <a href="mozart.html" style="color: black; font-size:    15px; margin-left: 1em;">~Amadeus Mozart</a>
+         <a href="bach.html" style="color: black; font-size:    15px; margin-left: 1em;">~Sebastian Bach</a>
+     <a href="ludwig.html" style="color: black; font-size:    15px; margin-left: 1em;">~Ludwig van Beethoven</a>
+     <a href="handel.html" style="color: black; font-size:    15px; margin-left: 1em;">~Friedrich Händel</a>
+    
+    <a href="#">Teste</a>
+    <a href="quiz1.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Pictori</a>
+         <a href="quiz2.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Sculptori</a>
+     <a href="quiz3.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Compozitori</a>
+  <a href="java.html">Arata ce poti!</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ MENIU</button>  
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/_methode_times_prod_web_bin_cdce4a16-4736-11e8-bf76-d5da08923eed.jpg" >
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/12146779996_026b1e3e12_b.jpg">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/1b987054c3becbf60e684fd843c9e0c1.jpg">
+  
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    
+</script>
+     <center><h3>Auguste Rodin</h3></center>
+    
+    
+  
+         <p class="ex2" > Rodin este cel care a revoluţionat limbajul sculpturii secolului al IX-lea, demonstrându-şi viziunea modernă asupra artei, nu doar la nivel conceptual ci şi prin modalitatea originală de expunere a operelor sale, pentru care a ales spaţii aflate în aer liber.
+
+O incursiune în Muzeul Rodin din Paris, fostul atelier al genialului artist, reprezintă o experiență unică, o incursiune în timp, ce prezintă opere de excepţie ale marelui artist, opere ale altor artişti colecţionate de Rodin, dar și o superbă grădină întinsă pe trei hectare, ce recrează contextul istoric al Parisului anilor 1900, în care Rodin şi-a desăvârşit concepţia artistică.</p>
+
+    
+   
+    
+     <center>
+     <img src="img/The_Thinker,_Rodin.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+   
+     <p class="ex2" >Dincolo de obsesiile … indispensabile marilor artişti, Rodin a realizat litografii, picturi şi lucrări de grafică, dar a rămas nemuritor prin sculpturile sale ce exprimă originalitatea unui spirit genial, capabil să depăşească reguli şi tipare academice.
+
+A călătorit enorm şi a învăţat în permanenţă din aproape tot ce s-a creat artistic până la el şi aceste experienţe au contribuit la realizarea unor opere ce vor rămâne inegalabile.
+
+A fost cunoscut şi apreciat încă din timpul vieţii de către artişti, literaţi şi oameni de stat din Europa şi America, influenţând definitiv întregul curs al istoriei artelor, iar acum lucrările sale se află la loc de cinste în aproape toate marile muzee ale lumii. </p>
+    
+    
+        
+<div class="row">
+ <div class="column">
+   
+    <center>
+     <img src="img/Auguste Rodin Victor Hugo et les Muses, 1890 (1).jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+   
+     </div>
+        <div class="column">
+   
+    <center  > 
+     <img src="img/unnamed (2).jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+     </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+     </div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+
+
+
+
+
+
+
+     
+
+    </body>
+
+
+
+
+
+
+</html>

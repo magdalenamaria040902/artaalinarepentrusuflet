@@ -1,0 +1,312 @@
+<html>
+   
+<head>
+    <meta charset="UTF-8">
+<title>Arta, alinare pentru suflet</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background-color: #000;
+}
+    h2{
+        color: white; margin-top: 3em; font-size: 2em; font-family: cursive; font: "Comic Sans"
+    }
+      h3{ color: white; margin-top: 1em; font-size: 4em; font-family: cursive; font:"Comic Sans"; }
+    p.ex1 {
+  
+   text-align: justify;
+   align-content: center;
+   font-family: cursive;
+    font:"Comic Sans";
+    color: white;
+    margin-left: 20%;
+       
+}
+     p.ex2 {
+  
+
+   align-content: center;
+   font-family: cursive;
+    font:"Comic Sans";
+    color: white;
+    margin-left: 200px;
+  margin-right:150px ;
+       
+}
+        p { 
+  font-size: 1em; 
+} .newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+   
+}
+    * {
+  box-sizing: border-box;
+    
+}
+
+.column {
+  float: left;
+  width: 10.50%;
+  padding: 20px;
+     margin-left:200px;
+    margin-right: 100px;
+margin-top: 50px;
+
+
+    
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;   
+}
+
+    </style>
+
+    </head>
+
+
+ <body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Acasa</a>
+   
+  <a href="#">Pictori</a>
+        <a href="picasso.html" style="color: black; font-size:    15px; margin-left: 1em;">~Pablo Picasso</a>
+         <a href="vinci.html" style="color: black; font-size:    15px; margin-left: 1em;">~Leonardo Da Vinci</a>
+     <a href="van.html" style="color: black; font-size:    15px; margin-left: 1em;">~Vincent van Gogh</a>
+     <a href="rijn.html" style="color: black; font-size:    15px; margin-left: 1em;">~Rembrandt van Rijn</a>
+    
+<a href="#">Sculptori</a>
+    <a href="brancusi.html" style="color: black; font-size:    15px; margin-left: 1em;">~Constantin Brancuși</a>
+         <a href="auguste.html" style="color: black; font-size:    15px; margin-left: 1em;">~Auguste Rodin</a>
+     <a href="adoc.html" style="color: black; font-size:    15px; margin-left: 1em;">~Gheorghe Adoc</a>
+     <a href="donatello.html" style="color: black; font-size:    15px; margin-left: 1em;">~Donatello di Niccolo</a>
+
+<a href="#">Compozitori</a>
+    <a href="mozart.html" style="color: black; font-size:    15px; margin-left: 1em;">~Amadeus Mozart</a>
+         <a href="bach.html" style="color: black; font-size:    15px; margin-left: 1em;">~Sebastian Bach</a>
+     <a href="ludwig.html" style="color: black; font-size:    15px; margin-left: 1em;">~Ludwig van Beethoven</a>
+     <a href="handel.html" style="color: black; font-size:    15px; margin-left: 1em;">~Friedrich Händel</a>
+    
+    <a href="#">Teste</a>
+    <a href="quiz1.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Pictori</a>
+         <a href="quiz2.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Sculptori</a>
+     <a href="quiz3.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Compozitori</a>
+  <a href="java.html">Arata ce poti!</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ MENIU</button>  
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/Vincent_van_Gogh_-_Wheat_Field_with_Cypresses_-_Google_Art_Project.jpg" >
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/DCTYE8r.jpg">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/vincent-van-gogh-first-steps-after-millet-mugs.jpg">
+  
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    
+</script>
+     <center><h3>Vincent Van Gogh</h3></center>
+    
+    
+    <p class="ex2" >Născut în Groot-Zundert, Olanda, Vincent van Gogh este unul dintre cei mai renumiți artiști ai tuturor timpurilor. Floarea soarelui pictată de el este celebră, urechea sa tăiată, legendară, și totuși, în timpul vieții lui van Gogh, era destul de necunoscut și se considera un eșec. </p>
+        <p class="ex2" > Azi operele de artă ale lui van Gogh se vând cu sute de milioane de dolari și este cunoscut peste tot, însă există lucruri despre viața și munca lui care ar putea încă să te surprindă. </p>
+          
+
+    <center><h2>TOP 10 lucruri despre Van Gogh</h2></center><div class="newspaper">
+    <p class="ex1" ><b>1. Era să nu devină niciodată artist</b></p><p class="ex1" >Îți poți imagina o lume în care nu am avut Floarea soarelui, sau Noaptea înstelată? Această lume era cât pe ce să existe. Inițial, van Gogh plănuia să fie pastor și a lucrat ca preot laic în Borinage, Belgia. Doar după ce a fost dat afară din această slujbă s-a hotărât că viitorul lui este pictura. Într-adevăr, van Gogh nu a început să picteze până la împlinirea vârstei de 27 de ani și nu a urmat nicio formare profesională.</p>
+    <p class="ex1" ><b>2. Inspirații din est</b></p><p class="ex1" >Van Gogh a avut inspirații diverse, inclusiv genul picturii olandeze și picturile realiste ale lui Millet și ale contemporanilor săi, dar el a fost în mod special influențat de clișeele japoneze din lemn. În unele cazuri, chiar a făcut copii - cu toate că în stilul său foarte expresiv, individual - ale clișeelor de Hiroshige, Kesai Eisen și alții.</p>
+    
+</div>
+    
+<div class="row">
+ <div class="column">
+   
+    <center>
+     <img src="img/WLA_metmuseum_Oleanders_by_Vincent_van_Gogh.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+   
+     </div>
+        <div class="column">
+   
+    <center  > 
+     <img src="img/albero.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+     </div>
+    </div>
+    <div class="newspaper">
+    <p class="ex1" ><b>3. O nouă operă la fiecare 36 de ore</b></p><p class="ex1" >În ciuda faptului că a lucrat doar 10 ani - de la 27 de ani până la decesul său timpuriu, la 37 de ani - van Gogh a fost incredibil de prolific. A realizat peste 900 de picturi și multe alte desene și schițe, ceea ce înseamnă aproape o nouă lucrare de artă la fiecare 36 de ore. </p>
+        <p class="ex1" ><b>4. Un om al literelor</b></p><p class="ex1" >Pe lângă faptul că a creat sute de opere, van Gogh a scris aproape la fel de multe scrisori și cărți poștale. Adesea, acestea includeau primele schițe ale multora dintre cele mai celebre capodopere ale sale.</p></div>
+    
+       
+<div class="row">
+ <div class="column">
+   
+    <center>
+     <img src="img/13-The-Bedroom.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+   
+     </div>
+        <div class="column">
+   
+    <center  > 
+     <img src="img/painting-reproduction-vincent-van-gogh-irises-1889.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+     </div>
+    </div>
+     <div class="newspaper">
+    <p class="ex1" ><b>5. Relații strânse</b></p><p class="ex1" >Van Gogh a avut mai multe relații apropiate cu alți artiști, inclusiv cu colegul pictor Paul Gaugin. Van Gogh, Gaugin și Emile Bernard au planificat să formeze o comunitate strâns legată de artiști în sudul Franței, unde intenționau să trăiască și să picteze împreună. </p>
+        <p class="ex1" ><b>6. Era propriul său model</b></p><p class="ex1" >Un artist necunoscut și sărac, van Gogh nu avea bani să plătească pentru modele, așa că s-a pictat pe sine în schimb. Printre alte trucuri de reducere a costurilor era și faptul că picta peste lucrările sale de artă în loc să cumpere pânze noi. Câte din capodoperele sale se ascund încă sub alte picturi?
+
+</p></div>
+    
+       
+<div class="row">
+ <div class="column">
+   
+    <center>
+     <img src="img/desc%C4%83rcare.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+   
+     </div>
+        <div class="column">
+   
+    <center  > 
+     <img src="img/desc%C4%83rcare%20(1).jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+     </div>
+    </div>
+    <div class="newspaper">
+    <p class="ex1" ><b>7. Un eșec?</b></p><p class="ex1" >Când van Gogh a pictat cel mai celebru tablou al său, "Noapte înstelată", nici măcar nu credea că e bună. De fapt, van Gogh se considera pe sine și multe dintre picturile sale drept eșecuri și se zvonește că a vândut o singură pictură în timpul vieții sale. Dacă am putea să ne întoarcem în timp și să-i arătăm cât de iubit avea să fie și 150 de ani mai târziu.        </p>
+        <p class="ex1" ><b>8. Și-a tăiat urechea după o ceartă cu Gaugin</b></p><p class="ex1" >
+Mulți experți cred că s-a întâmplat în urma unei certe cu colegul pictor Paul Gaugin la Casa Galbenă din Arles. Unii istorici chiar cred că Gaugin i-a tăiat urechea prietenului său.
+Se spune că ulterior, Van Gogh și-a împachetat urechea tăiată și i-a dat-o unei prostituate într-un bordel din apropiere.
+</p></div>
+    
+       
+<div class="row">
+ <div class="column">
+   
+    <center>
+     <img src="img/Starry_Night_03d43ad7-d879-40ef-8525-5f3c38918acc_grande.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+   
+     </div>
+        <div class="column">
+   
+    <center  > 
+     <img src="img/_82797611_9340lot18vangogh.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+     </div>
+    </div>
+    <div class="newspaper">
+    <p class="ex1" ><b>9. Tragic, și-a luat viața</b></p><p class="ex1" >Van Gogh suferea de probleme de sănătate mintală timp de mulți ani. În aprilie 1889, el s-a internat voluntar la spitalul de psihiatrie Saint-Paul-de-Mausole din Saint-Rémy, unde a stat un an. De la această fereastră a creat câteva dintre cele mai cunoscute tablouri, inclusiv "Noapte înstelată."
+
+După ce a părăsit azilul, s-a mutat într-un sat lângă Paris, pentru a fi mai aproape de fratele său, Theo. Dar sănătatea sa mintală a continuat să se deterioreze și s-a împușcat în piept. El avea să moară două zile mai târziu, ultimele sale cuvinte adresate fratelui său au fost „tristețea va dura pentru totdeauna”.      </p>
+        <p class="ex1" ><b>10. O inspirație pentru secole</b></p><p class="ex1" >
+Operele de artă ale lui Vincent van Gogh au ajuns să definească post-impresionismul și au oferit o inspirație nesfârșită pentru artiști, dar povestea sa tragică de viață a captivat și inima nenumăraților muzicieni, scriitori și regizori. Cântecul lui Don McLean din 1971 „Vincent” este inspirat de perspectiva unică a lui van Gogh asupra lumii. El cântă, „nu au ascultat, nu știau cum... poate că vor asculta acum”.
+
+
+</p></div>
+    
+       
+<div class="row">
+ <div class="column">
+   
+    <center>
+     <img src="img/1_QpTnzGhVkjCCJfAKc9t0SQ.jpeg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+   
+     </div>
+        <div class="column">
+   
+    <center  > 
+     <img src="img/il_570xN.1166535138_93wg.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+     </div>
+    </div>
+</div>
+    
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+
+
+
+
+
+     </div>
+
+
+
+
+    </body>
+
+
+
+
+
+
+</html>

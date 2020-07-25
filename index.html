@@ -1,0 +1,251 @@
+<html>
+   
+<head>
+    <meta charset="UTF-8">
+<title>Arta, alinare pentru suflet</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background-color: #000;
+}
+    h2{
+        color: white; margin-top: 3em; font-size: 2em; font-family: cursive; font: "Comic Sans"
+    }
+      h3{ color: white; margin-top: 1em; font-size: 4em; font-family: cursive; font:"Comic Sans"; }
+    p.ex1 {
+  
+
+   align-content: center;
+   font-family: cursive;
+    font:"Comic Sans";
+    color: white;
+    margin-left: 200px;
+  margin-right:150px ;
+       
+}
+        p { 
+  font-size: 1em; 
+}
+    </style>
+
+    </head>
+
+
+ <body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Acasa</a>
+   
+  <a href="#">Pictori</a>
+        <a href="picasso.html" style="color: black; font-size:    15px; margin-left: 1em;">~Pablo Picasso</a>
+         <a href="vinci.html" style="color: black; font-size:    15px; margin-left: 1em;">~Leonardo Da Vinci</a>
+     <a href="van.html" style="color: black; font-size:    15px; margin-left: 1em;">~Vincent van Gogh</a>
+     <a href="rijn.html" style="color: black; font-size:    15px; margin-left: 1em;">~Rembrandt van Rijn</a>
+    
+<a href="#">Sculptori</a>
+    <a href="brancusi.html" style="color: black; font-size:    15px; margin-left: 1em;">~Constantin Brancuși</a>
+         <a href="auguste.html" style="color: black; font-size:    15px; margin-left: 1em;">~Auguste Rodin</a>
+     <a href="adoc.html" style="color: black; font-size:    15px; margin-left: 1em;">~Gheorghe Adoc</a>
+     <a href="donatello.html" style="color: black; font-size:    15px; margin-left: 1em;">~Donatello di Niccolo</a>
+
+<a href="#">Compozitori</a>
+    <a href="mozart.html" style="color: black; font-size:    15px; margin-left: 1em;">~Amadeus Mozart</a>
+         <a href="bach.html" style="color: black; font-size:    15px; margin-left: 1em;">~Sebastian Bach</a>
+     <a href="ludwig.html" style="color: black; font-size:    15px; margin-left: 1em;">~Ludwig van Beethoven</a>
+     <a href="handel.html" style="color: black; font-size:    15px; margin-left: 1em;">~Friedrich Händel</a>
+    
+    <a href="#">Teste</a>
+    <a href="quiz1.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Pictori</a>
+         <a href="quiz2.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Sculptori</a>
+     <a href="quiz3.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Compozitori</a>
+  <a href="java.html">Arata ce poti!</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ MENIU</button>  
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/slide15.jpg" >
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/irises_header.jpg">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/original.png">
+  
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    
+</script>
+     <center><h3>Bine ați venit!</h3></center>
+    
+    
+    <p class="ex1" >Am creat acest site pentru a facilita iubitorilor de <b>artă</b> un loc unde, pe viitor, își vor putea distribui creațiile lumii întregi, arătând astfel, talentul care zace în interiorul fiecăruia. </p>
+        <p class="ex1" > Pagina este în curs de dezvoltare, asa că momentan, persoanele pasionate de acest domeniu pot accesa informații privind marii artiști ai lumii, prin intermediul meniului glisant. </p>
+            <p class="ex1" >  În cazul în care sesizați vreo problemă sau aveți vreun disconfort în timpul utilizării paginii, nu ezitați să ne atrageți atenția în cadrul secțiunii <b>contact.</b></p>
+         <p class="ex1">Sperăm ca pagina noastră să vă placă și să o utilizați cu placere!&#128516;</p> 
+
+    <center><h2>TOP 10 fotografii care ne-au impresionat săptămâna aceasta!</h2></center>
+    <style>
+    * {
+  box-sizing: border-box;
+    
+}
+
+.column {
+  float: left;
+  width: 10.50%;
+  padding: 5px;
+     margin-left:200px;
+    margin-right: 100px;
+margin-top: 50px;
+
+
+    
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;   
+}
+    </style>    
+    <div class="row">
+ <div class="column">
+   
+    <center>
+     <img src="img/PHOTO-2019-10-01-12-34-40-2-1-450x300.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+   
+     </div>
+        <div class="column">
+   
+    <center  > 
+     <img src="img/Blue2020-450x300.png" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+     </div>
+        <div class="column">
+   <center  > 
+     <img src="img/graphic-art-painting-21.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+     </div>
+        <div class="column">
+   
+     <center >
+     <img src="img/0_PROD-An-employee-poses-alongside-an-artwork-e.jpg" id="borderimg2" style="width:400px"  "height: auto">
+        </center>
+     </div>
+        <div class="column">
+   
+     <center >
+     <img src="img/HP_Crops_vangoghinspired_03302020.jpg" id="borderimg2" style="width:400px"  "height: auto">
+        </center>
+     </div>
+        <div class="column">
+   
+     <center >
+     <img src="img/IMG_20170114_222025_931-58a01296a1b60__880.jpg" id="borderimg2" style="width:400px"  "height: auto">
+        </center>
+     </div>
+        <div class="column">
+   
+     <center >
+     <img src="img/images.jfif" id="borderimg2" style="width:400px"  "height: auto">
+        </center>
+     </div>
+        <div class="column">
+   
+     <center >
+     <img src="img/images%20(1).jfif" id="borderimg2" style="width:400px"  "height: auto">
+        </center>
+     </div>
+        <div class="column">
+   
+     <center >
+     <img src="img/TaudMn8_U38YZseee8dHcA_store_banner_image.jpeg" id="borderimg2" style="width:400px"  "height: auto">
+        </center>
+     </div>
+        <div class="column">
+   
+     <center >
+     <img src="img/abstract-art-artistic-featured.jpg" id="borderimg2" style="width:400px"  "height: auto">
+        </center>
+    
+        </div>
+        
+    
+  </div>  
+    
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+
+
+
+
+
+     </div>
+
+
+
+
+    </body>
+
+
+
+
+
+
+</html>

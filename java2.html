@@ -1,0 +1,184 @@
+<html>
+   
+<head>
+    <meta charset="UTF-8">
+<title>Arta, alinare pentru suflet</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background-color: #000;
+}
+    h2{
+        color: white; margin-top: 3em; font-size: 2em; font-family: cursive; font: "Comic Sans"
+    }
+      h3{ color: white; margin-top: 1em; font-size: 4em; font-family: cursive; font:"Comic Sans"; }
+    p.ex1 {
+  
+
+   align-content: center;
+   font-family: cursive;
+    font:"Comic Sans";
+    color: white;
+    margin-left: 200px;
+  margin-right:150px ;
+       
+}
+        p { 
+  font-size: 1em; 
+}
+    </style>
+
+    </head>
+
+
+ <body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Acasa</a>
+   
+  <a href="#">Pictori</a>
+        <a href="picasso.html" style="color: black; font-size:    15px; margin-left: 1em;">~Pablo Picasso</a>
+         <a href="vinci.html" style="color: black; font-size:    15px; margin-left: 1em;">~Leonardo Da Vinci</a>
+     <a href="van.html" style="color: black; font-size:    15px; margin-left: 1em;">~Vincent van Gogh</a>
+     <a href="rijn.html" style="color: black; font-size:    15px; margin-left: 1em;">~Rembrandt van Rijn</a>
+    
+<a href="#">Sculptori</a>
+    <a href="brancusi.html" style="color: black; font-size:    15px; margin-left: 1em;">~Constantin Brancuși</a>
+         <a href="auguste.html" style="color: black; font-size:    15px; margin-left: 1em;">~Auguste Rodin</a>
+     <a href="adoc.html" style="color: black; font-size:    15px; margin-left: 1em;">~Gheorghe Adoc</a>
+     <a href="donatello.html" style="color: black; font-size:    15px; margin-left: 1em;">~Donatello di Niccolo</a>
+
+<a href="#">Compozitori</a>
+    <a href="mozart.html" style="color: black; font-size:    15px; margin-left: 1em;">~Amadeus Mozart</a>
+         <a href="bach.html" style="color: black; font-size:    15px; margin-left: 1em;">~Sebastian Bach</a>
+     <a href="ludwig.html" style="color: black; font-size:    15px; margin-left: 1em;">~Ludwig van Beethoven</a>
+     <a href="handel.html" style="color: black; font-size:    15px; margin-left: 1em;">~Friedrich Händel</a>
+    
+    <a href="#">Teste</a>
+    <a href="quiz1.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Pictori</a>
+         <a href="quiz2.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Sculptori</a>
+     <a href="quiz3.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Compozitori</a>
+  <a href="java.html">Arata ce poti!</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ MENIU</button>  
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/slide15.jpg" >
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/irises_header.jpg">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/original.png">
+  
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+ </script>
+   
+       <center><h3>Arată ce poți!</h3></center>
+     <p class="ex1" > În această secțiune a paginii noastre web, puteți să vă relaxați desenând elemente relativ simple, într-un mod cât mai inventiv. </p>
+    <p class="ex1">Vă punem la dispoziție 5 cerințe diferite pe care le puteți realiza în orice moment pe pagina noastră.Distracție plăcută!</p>
+ <style>
+    
+.button {
+    margin-top: 5em;
+  padding: 5px 10px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color:#ffcccc;
+  border: none;
+  border-radius: 15px;
+  
+     }
+    .button1 {
+    margin-left: 750px;
+  padding: 5px 50px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color:#ffcccc;
+  border: none;
+  border-radius: 15px;
+     }</style>
+  
+ <button class="button" onclick="window.location.href='java.html'" width="10px">1</button>
+  <button class="button" onclick="window.location.href='java2.html'" width="10px">2</button>
+  <button class="button" onclick="window.location.href='java3.html'" width="10px">3</button>
+    <button class="button" onclick="window.location.href='java4.html'" width="10px">4</button>
+  <button class="button" onclick="window.location.href='java5.html'" width="10px">5</button>
+     <button class="button1" onclick="window.location.href='java2.html'" width="10px">Șterge ce ai desenat!</button>
+     <p class="ex1">Desenează un copac!</p>
+  
+    
+    
+    
+    <canvas id="canvas"></canvas>
+    <script src="js/canvas2.js"></script>
+    </div>
+    
+    
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+    </body>
+</html>
+

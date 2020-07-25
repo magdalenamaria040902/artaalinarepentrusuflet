@@ -1,0 +1,247 @@
+<html>
+   
+<head>
+    <meta charset="UTF-8">
+<title>Arta, alinare pentru suflet</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background-color: #000;
+}
+    h2{
+        color: white; margin-top: 3em; font-size: 2em; font-family: cursive; font: "Comic Sans"
+    }
+      h3{ color: white; margin-top: 1em; font-size: 4em; font-family: cursive; font:"Comic Sans"; }
+    p.ex1 {
+  
+   text-align: justify;
+   align-content: center;
+   font-family: cursive;
+    font:"Comic Sans";
+    color: white;
+    margin-left: 20%;
+       
+} p.ex2 {
+  
+
+   align-content: center;
+   font-family: cursive;
+    font:"Comic Sans";
+    color: white;
+    margin-left: 200px;
+  margin-right:150px ;
+       
+}
+    
+        p { 
+  font-size: 1em; 
+} .newspaper {
+    -webkit-column-count: 3; 
+    -moz-column-count: 3; 
+    column-count: 2;
+    -webkit-column-gap: 40px; 
+    -moz-column-gap: 40px; 
+    column-gap: 40px;
+   
+}
+    * {
+  box-sizing: border-box;
+    
+}
+
+.column {
+  float: left;
+  width: 10.50%;
+  padding: 20px;
+     margin-left:200px;
+    margin-right: 100px;
+margin-top: 50px;
+
+
+    
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;   
+}
+
+    </style>
+
+    </head>
+
+
+ <body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Acasa</a>
+   
+  <a href="#">Pictori</a>
+        <a href="picasso.html" style="color: black; font-size:    15px; margin-left: 1em;">~Pablo Picasso</a>
+         <a href="vinci.html" style="color: black; font-size:    15px; margin-left: 1em;">~Leonardo Da Vinci</a>
+     <a href="van.html" style="color: black; font-size:    15px; margin-left: 1em;">~Vincent van Gogh</a>
+     <a href="rijn.html" style="color: black; font-size:    15px; margin-left: 1em;">~Rembrandt van Rijn</a>
+    
+<a href="#">Sculptori</a>
+    <a href="brancusi.html" style="color: black; font-size:    15px; margin-left: 1em;">~Constantin Brancuși</a>
+         <a href="auguste.html" style="color: black; font-size:    15px; margin-left: 1em;">~Auguste Rodin</a>
+     <a href="adoc.html" style="color: black; font-size:    15px; margin-left: 1em;">~Gheorghe Adoc</a>
+     <a href="donatello.html" style="color: black; font-size:    15px; margin-left: 1em;">~Donatello di Niccolo</a>
+
+<a href="#">Compozitori</a>
+    <a href="mozart.html" style="color: black; font-size:    15px; margin-left: 1em;">~Amadeus Mozart</a>
+         <a href="bach.html" style="color: black; font-size:    15px; margin-left: 1em;">~Sebastian Bach</a>
+     <a href="ludwig.html" style="color: black; font-size:    15px; margin-left: 1em;">~Ludwig van Beethoven</a>
+     <a href="handel.html" style="color: black; font-size:    15px; margin-left: 1em;">~Friedrich Händel</a>
+    
+    <a href="#">Teste</a>
+    <a href="quiz1.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Pictori</a>
+         <a href="quiz2.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Sculptori</a>
+     <a href="quiz3.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Compozitori</a>
+  <a href="java.html">Arata ce poti!</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ MENIU</button>  
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/download%20(2).jpg" >
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/download%20(3).jpg">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/image_gallery.jpg">
+  
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    
+</script>
+     <center><h3>Ludwig van Beethoven</h3></center>
+    
+    
+    <p class="ex2" >Ludwig van Beethoven a fost un compozitor german, considerat unul din cei mai mari compozitori din istoria muzicii. Este unul dintre primii mari oameni de artă ai secolului al XIX-lea, primul dintre romantici, care prin opera sa duce la o benefică îmboldire a domeniului culturii printr-o  largă și receptivă deschidere față de viață.</p><p class="ex2">
+
+</p>
+        
+
+    <center><h2>Ce nu știați despre Beethoven</h2></center><div class="newspaper">
+    <p class="ex1" ><b>1. Nu a avut o copilarie fericită</b></p><p class="ex1" >
+Se pare c tatăl celebrului compozitor își abuza fiul din punct de vedere psihic. O fire mai sensibilă, Beethoven era certat și bătut de fiecare dată când greșea o notă.</p>
+    <p class="ex1" ><b>2. Cel mai probabil era bipolar</b></p><p class="ex1" >În timp, mai mulți psihologi au studiat schimbările bruste de comportament și trăirile intense ale lui Beethoven ajungând la concluzia că acesta era bipolar. 
+
+ 
+</p>
+    
+</div>
+    
+
+    <div class="newspaper">
+    <p class="ex1" ><b>3. Primul instrument care l-a atras a fost vioară</b></p><p class="ex1" >Numele lui Beethoven este mereu asociat cu pianul. Puțini sunt cei care știu, însă, ca prima dragoste a artistului a fost vioară. Dar a fost nevoit să se lase din cauza tatălui său care găsea sunetul scos de aceasta, extrem de enervant.
+ </p>
+        <p class="ex1" ><b>4. A fost plătit să locuiască în Viena</b></p><p class="ex1" >În perioada sa de glorie, tot ceea ce atingea artistul se transformă în aur. El primea un salariu lunar pentru a locui în Viena. Autoritățile locale erau convinse ca acest lucru va fi benefic pentru oraș.
+</p></div>
+    
+       
+    
+    <div class="row">
+ <div class="column">
+   
+    <center>
+     <img src="img/410Q5SRYpkL.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+   
+     </div>
+        <div class="column">
+   
+    <center  > 
+     <img src="img/Ludwig-van-Beethoven-tanar.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+     </div>
+    </div>
+    
+    <div class="newspaper">
+    <p class="ex1" ><b>5. Își punea gheață pe cap înainte de fiecare concert
+
+O fire sensibilă, Beethoven era năpădit de emoții înainte de fiecare concert pe care îl susținea. El își punea gheață pe cap de fiecare dată, fiind convins că senzația de rece îi calmează demonii interiori. Fiecare artist are tabieturile sale când vine vorba de sursele de inspirație. Beethoven se relaxa plimbandu-se de unul singur prin natură.
+ </p>
+        <p class="ex1" ><b>6. A fost otravit?</b></p><p class="ex1" >Chiar dacă oficial compozitorul a murit de ciroză hepatică, se pare că ceea ce i-a grăbit însă sfârșitul a fost chiar tratamentul aplicat de medicul său, Andreas Ignaz Wawruch, el însuși violoncelist și mare admirator al ilustrului său pacient.
+</p></div>
+    
+       
+    </div>
+     </div>
+   
+    
+     
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+
+
+
+
+
+
+     
+        
+    </body>
+
+
+
+
+
+
+</html>

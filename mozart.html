@@ -1,0 +1,246 @@
+<html>
+   
+<head>
+    <meta charset="UTF-8">
+<title>Arta, alinare pentru suflet</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background-color: #000;
+}
+    h2{
+        color: white; margin-top: 3em; font-size: 2em; font-family: cursive; font: "Comic Sans"
+    }
+      h3{ color: white; margin-top: 1em; font-size: 4em; font-family: cursive; font:"Comic Sans"; }
+    p.ex1 {
+  
+   text-align: justify;
+   align-content: center;
+   font-family: cursive;
+    font:"Comic Sans";
+    color: white;
+    margin-left: 20%;
+       
+} p.ex2 {
+  
+
+   align-content: center;
+   font-family: cursive;
+    font:"Comic Sans";
+    color: white;
+    margin-left: 200px;
+  margin-right:150px ;
+       
+}
+    
+        p { 
+  font-size: 1em; 
+} .newspaper {
+    -webkit-column-count: 3; 
+    -moz-column-count: 3; 
+    column-count: 2;
+    -webkit-column-gap: 40px; 
+    -moz-column-gap: 40px; 
+    column-gap: 40px;
+   
+}
+    * {
+  box-sizing: border-box;
+    
+}
+
+.column {
+  float: left;
+  width: 10.50%;
+  padding: 20px;
+     margin-left:200px;
+    margin-right: 100px;
+margin-top: 50px;
+
+
+    
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;   
+}
+
+    </style>
+
+    </head>
+
+
+ <body>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="index.html">Acasa</a>
+   
+  <a href="#">Pictori</a>
+        <a href="picasso.html" style="color: black; font-size:    15px; margin-left: 1em;">~Pablo Picasso</a>
+         <a href="vinci.html" style="color: black; font-size:    15px; margin-left: 1em;">~Leonardo Da Vinci</a>
+     <a href="van.html" style="color: black; font-size:    15px; margin-left: 1em;">~Vincent van Gogh</a>
+     <a href="rijn.html" style="color: black; font-size:    15px; margin-left: 1em;">~Rembrandt van Rijn</a>
+    
+<a href="#">Sculptori</a>
+    <a href="brancusi.html" style="color: black; font-size:    15px; margin-left: 1em;">~Constantin Brancuși</a>
+         <a href="auguste.html" style="color: black; font-size:    15px; margin-left: 1em;">~Auguste Rodin</a>
+     <a href="adoc.html" style="color: black; font-size:    15px; margin-left: 1em;">~Gheorghe Adoc</a>
+     <a href="donatello.html" style="color: black; font-size:    15px; margin-left: 1em;">~Donatello di Niccolo</a>
+
+<a href="#">Compozitori</a>
+    <a href="mozart.html" style="color: black; font-size:    15px; margin-left: 1em;">~Amadeus Mozart</a>
+         <a href="bach.html" style="color: black; font-size:    15px; margin-left: 1em;">~Sebastian Bach</a>
+     <a href="ludwig.html" style="color: black; font-size:    15px; margin-left: 1em;">~Ludwig van Beethoven</a>
+     <a href="handel.html" style="color: black; font-size:    15px; margin-left: 1em;">~Friedrich Händel</a>
+    
+    <a href="#">Teste</a>
+    <a href="quiz1.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Pictori</a>
+         <a href="quiz2.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Sculptori</a>
+     <a href="quiz3.html" style="color: black; font-size:    15px; margin-left: 1em;">~Test- Compozitori</a>
+  <a href="java.html">Arata ce poti!</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ MENIU</button>  
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/images%20(1).jpg" >
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/images%20(2).jpg">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/download%20(1).jpg">
+  
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    
+</script>
+     <center><h3>Wolfgang Amadeus Mozart</h3></center>
+    
+    
+    <p class="ex2" >Wolfgang Amadeus Mozart s-a născut la Salzburg, Austria, la 27 ianuarie 1756 şi a fost un muzician austriac ale cărui creaţii muzicale au fost recunoscute universal drept compoziţii de valoare artistică extraordinară. Mozart a trăit numai 35 de ani, stingându-se din viaţă la 5 decembrie 1791, în Viena.</p><p class="ex2">
+
+</p>
+        
+
+    <center><h2>6 lucruri mai putin stiute despre Mozart</h2></center><div class="newspaper">
+    <p class="ex1" ><b>1.A fost considerat un copil minune</b></p><p class="ex1" >
+
+La vârstă de 3 ani distingea cu uşurinţă succesiunea armonică a unor instrumente şi interpreta după ureche o mulţime de melodii la pian. Şi-a început cariera muzicală la 5 ani cântând cu sora sa la cele mai prestigioase curţi din Europa. A compus prima sa simfonie la vârsta de 8 ani şi prima operă completă la 14 ani. A scris 68 de simfonii, dintre care 33 au fost scrise între 8 şi 19 ani.</p>
+    <p class="ex1" ><b>2.Avea o sora pe nume Nannel</b></p><p class="ex1" >Nannel era cu 4 ani mai mare decât Wolfgang şi de mică a demonstrat un mare talent, fiind capabilă să cânte la diverse instrumente. A simţit dorinţa de a compune muzică ca şi fratele său, dar condiţia de femeie nu-i permitea, aşa că s-a dedicat predării lecţiilor de pian pentru fete.
+
+ 
+</p>
+    
+</div>
+    
+
+    <div class="newspaper">
+    <p class="ex1" ><b>3. Ura flautul</b></p><p class="ex1" >Nannel era cu 4 ani mai mare decât Wolfgang şi de mică a demonstrat un mare talent, fiind capabilă să cânte la diverse instrumente. A simţit dorinţa de a compune muzică ca şi fratele său, dar in acea perioada femeile erau vazute din perspectiva vremii ca fiind incapabile in comparatie cu barbatii, aşa că s-a dedicat predării lecţiilor de pian pentru fete.
+ </p>
+        <p class="ex1" ><b>4. Era foarte productiv</b></p><p class="ex1" >Marelui compozitor i se atribuie nu mai puţin de 621 de opere (600 complete), ce includ 68 de simfonii, 36 sonate pentru vioară, 27 concerte pentru pian, 26 sonate pentru pian, 23 cvartete de coarde, 6 cvintete de coarde etc. El însuşi le-a scris pe hârtie, un lucru incredibil având în vedere că a trăit doar 35 de ani.
+</p></div>
+    
+       
+    
+    <div class="row">
+ <div class="column">
+   
+    <center>
+     <img src="img/a7ffc3b0fbe71dde43f95b5bbd3d33bb69c9002b.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+   
+     </div>
+        <div class="column">
+   
+    <center  > 
+     <img src="img/painting-Wolfgang-Amadeus-Mozart-Johann-Nepomuk-della-1780.jpg" id="borderimg2" style="width:400px"  "height: auto" >
+        </center>
+     </div>
+    </div>
+    
+    <div class="newspaper">
+    <p class="ex1" ><b>5. Suferea de sindromul Tourette</b></p><p class="ex1" >Se ştia că a suferit de această boală, o tulburare nervoasă care cauzează comportamente compulsive şi obsesive ce se manifestă prin incapacitatea de a se comporta corect în societate. Datorită acestui sindrom, se întâmpla deseori ca Mozart să folosească expresii vulgare şi insulte, după cum arată unele dintre scrisorile sale care se mai păstrează încă.
+ </p>
+        <p class="ex1" ><b>6. A avut parte de o moarte misterioasă</b></p><p class="ex1" >Mozart a murit la 35 de ani la Viena, în circumstanţe ce nu au fost clarificate pe deplin. Au apărut o mulţime de teorii privind cauza morţii sale cum ar fi: trichinoză, gripă, o rară afecţiune a rinichilor şi otrăvirea cu mercur (în mod fals atribuit de Salieri ). Cu toate acestea, versiunea cea mai acceptată este că a murit de febra reumatismului acut.
+</p></div>
+    
+       
+   
+   
+    
+    </div>
+     </div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+
+
+
+
+
+
+     
+        
+    </body>
+
+
+
+
+
+
+</html>
